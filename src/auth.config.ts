@@ -8,5 +8,5 @@ export const authConfig = {
   users: [{ username: 'admin', password: 'uxboutique2026' }],
   sessionKey: 'uxb-portfolio-session',
   /** In sviluppo locale (npm run dev) il login viene saltato. */
-  requireAuth: import.meta.env.PROD,
+  requireAuth: import.meta.env.PROD && import.meta.env.VITE_SKIP_AUTH !== '1',
 }
