@@ -37,4 +37,4 @@ da sostituire con Supabase Auth.
 
 ## Pubblicazione
 
-Ogni push su `main` pubblica il sito su GitHub Pages (`.github/workflows/deploy.yml`).
+Da definire: Cloudflare Pages + Cloudflare Access (consigliato) oppure Vercel/Netlify con password. GitHub Pages non è adatto perché il sito resterebbe pubblico.
